@@ -10,3 +10,4 @@ url= "http://google.com/"
 driver.maximize_window()
 driver.get(url)
 time.sleep(3)
+
