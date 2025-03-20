@@ -14,7 +14,7 @@ def main():
     #config del browser
     service = Service(ChromeDriverManager().install())
     option = Options()
-    #option.add_argument('--headless')
+    #option.add_argument('--headless') #en caso de que quieras que el proceso se lleve con el browser minimizado.
     option.add_argument('--window-size=1920,1080')
     driver = Chrome(service=service, options=option)
     driver.get("https://www.saucedemo.com/")
